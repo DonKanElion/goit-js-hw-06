@@ -22,3 +22,19 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;  
+}
+
+.flex-elem{
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}

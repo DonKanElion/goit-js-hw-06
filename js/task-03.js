@@ -12,3 +12,13 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+
+
+const imgListId = document.querySelector('.gallery');
+imgListId.classList.add('flexbox');
+
+const createImgEl = images.map((img)  => `<li class="list-item flex-elem">
+<img src="${img.url}" alt="${img.alt}" width="480">
+</li>`) .join("");
+
+imgListId.insertAdjacentHTML("afterbegin", createImgEl)

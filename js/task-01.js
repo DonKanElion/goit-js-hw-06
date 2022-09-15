@@ -8,3 +8,5 @@ for (let i = 0; i < allItemsEl.length; i += 1) {
   console.log(`Category: ${categoryTitle}`);
   console.log(`Elements: ${elementsNumber}`);
 }
+
+// Зробити через метод масиву (скоріш за все map)
